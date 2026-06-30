@@ -25,7 +25,7 @@ services:
       context: ./frontend
       dockerfile: Dockerfile
       args:
-        NEXT_PUBLIC_API_URL: http://172.18.75.153/api
+        NEXT_PUBLIC_API_URL: /api
     container_name: library-frontend
     restart: unless-stopped
     ports:
