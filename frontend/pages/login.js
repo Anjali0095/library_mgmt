@@ -35,7 +35,7 @@ export default function Login() {
             <BookOpen size={28} color="white" />
           </div>
           <h1 className="text-4xl font-bold gradient-text" style={{ fontFamily: 'Playfair Display, serif' }}>
-            Bibliotheca
+            Mona
           </h1>
           <p className="text-sm mt-2" style={{ color: 'var(--text-secondary)' }}>
             Your intelligent library companion
